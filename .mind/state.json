@@ -1,0 +1,24 @@
+{
+  "maturity": "nascent",
+  "stats": {
+    "total_impressions": 0,
+    "total_insights": 0,
+    "total_inquiries": 0,
+    "total_associations": 0,
+    "next_impression_seq": 1,
+    "next_insight_seq": 1,
+    "next_inquiry_seq": 1
+  },
+  "config": {
+    "salience_decay_per_day": 0.02,
+    "dormancy_alert_days": 7,
+    "maturity_thresholds": {
+      "forming": { "min_impressions": 20, "min_clusters": 5 },
+      "lucid": { "min_impressions": 75, "min_insights": 15 },
+      "wise": { "min_impressions": 200, "min_insights": 30 }
+    }
+  },
+  "last_input": null,
+  "last_reflection": null,
+  "created": null
+}
