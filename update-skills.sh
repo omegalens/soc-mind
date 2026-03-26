@@ -7,7 +7,7 @@
 
 set -euo pipefail
 
-TEMPLATE_REPO="${1:-https://github.com/OWNER/stream-of-consciousness.git}"
+TEMPLATE_REPO="${1:-https://github.com/omegalens/stream-of-consciousness.git}"
 TEMP_DIR=$(mktemp -d)
 SKILLS_DIR=".claude/skills"
 
