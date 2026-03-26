@@ -62,7 +62,7 @@ To connect:
 If the template skills have been updated, pull the latest:
 
 ```bash
-./update-skills.sh https://github.com/omegalens/stream-of-consciousness.git
+./update-skills.sh https://github.com/omegalens/soc-mind.git
 ```
 
 ## Learn More

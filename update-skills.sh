@@ -7,7 +7,7 @@
 
 set -euo pipefail
 
-TEMPLATE_REPO="${1:-https://github.com/omegalens/stream-of-consciousness.git}"
+TEMPLATE_REPO="${1:-https://github.com/omegalens/soc-mind.git}"
 TEMP_DIR=$(mktemp -d)
 SKILLS_DIR=".claude/skills"
 
@@ -19,7 +19,7 @@ echo ""
 
 if ! git clone --depth 1 --quiet "$TEMPLATE_REPO" "$TEMP_DIR" 2>/dev/null; then
   echo "Error: Could not clone template repo."
-  echo "Usage: ./update-skills.sh https://github.com/YOUR_ORG/stream-of-consciousness.git"
+  echo "Usage: ./update-skills.sh https://github.com/YOUR_ORG/soc-mind.git"
   exit 1
 fi
 
